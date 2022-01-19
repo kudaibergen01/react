@@ -9,7 +9,7 @@ function App() {
 
 	const addLogonHandler = (login) => {
 		// console.log("In App.js")
-		console.log(login)
+		// console.log(login)
 		setExpenses(login)
 	}
 	return (
@@ -17,7 +17,7 @@ function App() {
       <div>
        <Form onLogon={addLogonHandler} />
       </div>
-			 <div className='block'><h1 className='email'>{expenses.email}</h1><h1>{expenses.password}</h1><h1>{expenses.name}</h1></div>
+			 <div className='block'> <h1 className='name'>{expenses.name}</h1><h1 className='name'>{expenses.password}</h1><h1 className='name'>{expenses.email}</h1></div>
 		</div>
     
 	)
