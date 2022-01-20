@@ -8,8 +8,7 @@ function App() {
 	const [expenses, setExpenses] = useState('')
 
 	const addLogonHandler = (login) => {
-		// console.log("In App.js")
-		// console.log(login)
+		
 		setExpenses(login)
 	}
 	return (
