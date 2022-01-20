@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  background: linear-gradient(135deg, #850C62, #F80759);
+ background-color: #095e6b;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -18,7 +18,7 @@
   border-radius: 5px;
 }
 .title {
-  color: #F80759;
+  color: #095e6b;
   text-align: center;
   margin: 80px 0px 40px 0px;
 }
@@ -44,7 +44,7 @@
   margin-bottom: 10px;
 }
 .error {
-  color: red;
+  color: rgb(22, 16, 16);
 }
 .submit {
   display: flex;
@@ -53,7 +53,7 @@
   border: 25px;
   color: white;
   padding: 10px 60px;
-  background: linear-gradient(to right, #AB1DCF, #F80759);
+  background: #095e6b;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px
   rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin: 0 auto;
@@ -67,5 +67,5 @@
   justify-content: center;
   margin-top: 250px;
   min-width: 350px;
-  color: #F80759;
+  color: #095e6b;
 }
